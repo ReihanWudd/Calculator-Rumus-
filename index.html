@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form validation</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">Pilihan rumus 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="header">
+              <h2>Mega Menu</h2>
+            </div>   
+            <div class="row">
+              <div class="column">
+                <h3>Eksponen</h3>
+                <a href="#" id="eks1">a^m. a^n = a^m+n</a>
+                <a href="#" id="eks2">a^m/a^n = a^m-n</a>
+                <a href="#" id="eks3">(a^m)^n = a^m.n</a>
+                <a href="#" id="eks4">(ab)^m = a^m. b^m</a>
+                <a href="#" id="eks5">(a/b)m = am/bm</a>
+              </div>
+              <div class="column">
+                <h3>Category 2</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <div class="column">
+                <h3>Category 3</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <h1 class="awal">KALKULATOR RUMUS</h1>
+      <div id="nama">
+        <h2 id="jumlah" class="hilang">a^m. a^n = a^m+n</h2>
+        <h2 id="kurang"  class="hilang">a^m/a^n = a^m-n</h2>
+        <h2 id="kali"  class="hilang">(a^m)^n = a^m.n</h2>
+        <h2 id="abKali"  class="hilang">(ab)^m = a^m. b^m</h2>
+        <h2 id="abBagi"  class="hilang">(a/b)^m = a^m/b^m</h2>
+      </div>
+      
+      <div id="ekshit1">
+        <form >
+            <h2 id="jdl"></h2>
+          <div id="pertama">
+              <label for="angka1">Angka     (a)</label><br>
+              <input type="text" id="angka1" name="angka1"><br>
+          </div>
+          <div>
+              <label for="pangkat1">Pangkat   (m)</label><br>
+              <input type="text" id="pangkat1" name="pangkat1"><br>
+          </div>
+          <div>
+              <label for="angka2">Angka     (b)</label><br>
+              <input type="text" id="angka2" name="angka2"><br>
+          </div>
+          <div>
+              <label for="pangkat2">Pangkat   (n)</label><br>
+              <input type="text" id="pangkat2" name="pangkat2"><br>
+          </div>
+          <div id="hasil"></div>
+          <div id="tbl">hitung1</div>
+          <div id="tbl2">hitung2</div>
+          <div id="tbl3">hitung3</div>
+          <div id="tbl4">hitung4</div>
+          <div id="tbl5">hitung5</div><br>
+          <div id="relod">hapus</div>
+      </form>
+      </div>
+      
+
+
+
+</form>
+</body>
+<script src="java.js"></script>
+</html>
